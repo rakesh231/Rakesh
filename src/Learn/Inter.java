@@ -35,8 +35,8 @@ class abilitychild extends ability{
 		System.out.println("Extended class inheited property");
 		return true;
 	}
-
-class rakesh implements Ian{
+}
+class rakhee implements Ian{
 
 	@Override
 	public boolean Menatality() {
@@ -52,12 +52,12 @@ class rakesh implements Ian{
 		return true;
 	}
 	
-
-	class rchild extends rakesh{
+}
+	class rchild extends rakhee{
 		public rchild(){
 			System.out.println("inside rchild");
 		}
-		
+	}	
 	
 	
 	/*abstract class pradeep implements Ian{
@@ -77,26 +77,26 @@ class rakesh implements Ian{
 	
 public class Inter {
 	public static void main(String[] args) {
-		/*Ian ability = new ability();
+		Ian ability = new ability();
 		ability.Menatality();
 		ability.Good();
 		
-		Ian Asha= new Asha();
+		/*Ian Asha= new Asha();
 		Asha.Menatality();
-		Asha.Good();
+		Asha.Good();*/
 		
-		Ian rakesh = new rakesh();
-		rakesh.Menatality();
+		Ian rakhee = new rakhee();
+		rakhee.Menatality();
 		rchild rc = new rchild();
-		rc.Menatality();*/
+		rc.Menatality();
 		
 		ability ab= new ability();
 		ab.Menatality();
 		ab.Good();
 	
 		
+	
 	}
+	
 	}
-	}
-	}
-}
+
